@@ -1,0 +1,251 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: system-ui;
+    font-weight: 200;
+    font-style: italic;
+    line-height: 1.42857143;
+    color: #999;
+    overflow-x: hidden;
+}
+
+.navbar-brand {
+    padding-top: 15px;
+    font: 400 130px/0.8 'Cookie', Helvetica, sans-serif;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+    font-size: 35px;
+    animation: blinker 3s linear;
+    animation-iteration-count: 2;
+    font-weight: 500;
+    color: white;
+}
+
+.navbar {
+    background-color: transparent;
+    transition: 400ms;
+}
+
+.navbar-toggler {
+    margin-right: 20px;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+h3 {
+    font-weight: 540;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-size: 24px;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* les  </> dans le logo */
+#dash,
+#dash2 {
+    color: rgba(254, 82, 76, 1);
+    font-size: 14px;
+
+}
+
+#myPic {
+    padding-bottom: 20px;
+}
+
+#portfolio {
+    background: url(/img/portfolio.jpg);
+    background-size: cover;
+}
+
+#home-section {
+    background: url(/img/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 650px;
+    opacity: 0.95;
+}
+
+.content-section {
+    border-top: 1px solid #cccccc;
+    padding: 80px 10px 80px 10px;
+}
+
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 21.5px;
+    display: block;
+    position: relative;
+    padding-left: 90px;
+    color: rgba(254, 82, 76, 1);
+    border-left: 5px solid #eee;
+    border-color: rgba(254, 82, 76, 1);
+}
+
+blockquote:before {
+    content: "\"";
+    font-size: 60px;
+    font-family: FontAwesome;
+    position: absolute;
+    top: -8px;
+    left: 20px;
+}
+
+blockquote span:before {
+    content: '--';
+    padding: 0 10px 0 0;
+}
+
+blockquote span,
+.gray {
+    padding: 10px 0;
+    display: block;
+    font-size: 16px;
+    color: #999;
+}
+
+
+.nav-item {
+    font-family: "Raleway", "Helvetica Neue", Arial, sans-serif;
+}
+
+.fa-info-circle {
+    text-align: center;
+}
+
+.aproposicon {
+    margin-bottom: 40px;
+    color: rgba(254, 82, 76, 1);
+}
+
+
+footer :hover {
+    text-decoration: none;
+    color: rgba(254, 82, 76, 1);
+}
+
+footer {
+    background: rgba(54, 53, 54, .96);
+    padding-top: 15px;
+
+}
+
+footer a {
+    font: 400 40px/0.8 'Cookie', Helvetica, sans-serif;
+    color: white;
+}
+
+#cv a {
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 700;
+    color: rgba(254, 82, 76, 1);
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+.en-tete {
+    text-align: center;
+}
+
+.en-tete2nd {
+    margin-bottom: 70px;
+}
+
+i {
+    color: rgba(254, 82, 76, 1);
+    padding-bottom: 20px;
+}
+
+.blocLeft {
+    border-left: 5px solid #eee;
+    border-color: rgba(254, 82, 76, 1);
+}
+
+.blocRight {
+    border-right: 5px solid #eee;
+    border-color: rgba(254, 82, 76, 1);
+}
+
+h2 {
+    color: rgba(254, 82, 76, 1);
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+
+.caption {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.white {
+    color: white;
+}
+
+.aa,
+bb {
+    margin-bottom: 30px;
+}
+
+
+.copynote {
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+.progress-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+}
+
+.progress {
+    height: 15px;
+    background: #f1f1f1;
+    margin-bottom: 15px;
+}
+
+.progress .progress-bar {
+    position: relative;
+    animation: animate-positive 2s;
+}
+
+.progress .progress-value {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    position: absolute;
+    top: -30px;
+    right: -25px;
+}
+
+.progress .progress-bar:after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    right: -5px;
+    z-index: 1;
+    transform: rotate(35deg);
+}
+
+/* titre bienvenue */
+.display-4 {
+    padding-top: 50px;
+    color: white;
+    font-family: system-ui;
+    font-weight: 100;
+}
