@@ -36,3 +36,5 @@ $(document).ready(function () {
         autoStart: false
     });
 });
+
+/* Created By Jawher Hamza (Otto Development) */
