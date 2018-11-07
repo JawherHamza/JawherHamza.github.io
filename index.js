@@ -1,3 +1,5 @@
+/* Created By Jawher Hamza (Otto Development) */
+
 $(document).ready(function () {
     $('.owl-carousel').owlCarousel({
         loop: true,
@@ -37,4 +39,3 @@ $(document).ready(function () {
     });
 });
 
-/* Created By Jawher Hamza (Otto Development) */

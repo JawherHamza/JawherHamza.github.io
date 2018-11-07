@@ -1,3 +1,5 @@
+/* Created By Jawher Hamza (Otto Development) */
+
 html {
     scroll-behavior: smooth;
 }
@@ -53,7 +55,6 @@ h3 {
     font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-/* les  </> dans le logo */
 #dash,
 #dash2 {
     color: rgba(254, 82, 76, 1);
@@ -257,5 +258,3 @@ bb {
     font-family: system-ui;
     font-weight: 100;
 }
-
-/* Created By Jawher Hamza (Otto Development) */
