@@ -7,7 +7,6 @@ html {
 body {
     font-family: system-ui;
     font-weight: 200;
-    font-style: italic;
     line-height: 1.42857143;
     color: #999;
     overflow-x: hidden;
@@ -256,5 +255,24 @@ bb {
     padding-top: 50px;
     color: white;
     font-family: system-ui;
+    font-weight: 100;
+}
+
+
+/* Contact */
+.contact-form h3 {
+    color: rgba(254, 82, 76, 1);
+}
+
+#adress {
+    color: rgba(254, 82, 76, 1)
+}
+
+.btncontact {
+    min-width: 100%;
+    font-size: 20px;
+    color: #fff;
+    background: rgba(254, 82, 76, 1);
+    padding: 10px 30px;
     font-weight: 100;
 }

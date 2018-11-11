@@ -39,3 +39,13 @@ $(document).ready(function () {
     });
 });
 
+
+function sendMail() {
+    var name = document.getElementById("name").value;
+    var phone = document.getElementById("phone").value;
+    var message = document.getElementById("message").value;
+    if (name != "" && phone != "" && message != "")
+        window.open('mailto:jawher_hamza@yahoo.fr?subject=Hi I\'m ' + name + '&body=' + message + ' My Phone Number :' + phone + '');
+}
+
+
