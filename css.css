@@ -76,6 +76,7 @@ h3 {
     background-repeat: no-repeat;
     min-height: 650px;
     opacity: 0.95;
+    background-attachment: fixed;
 }
 
 .content-section {
