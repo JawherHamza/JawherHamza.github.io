@@ -27,12 +27,12 @@ body {
     font-size: 35px;
     animation: blinker 3s linear;
     animation-iteration-count: 2;
-    font-weight: 500;
     color: white;
 }
 
 .navbar {
     background-color: transparent;
+    /* smoothly change navbar backgroub on scrolling */
     transition: 400ms;
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 h3 {
-    font-weight: 540;
+    font-weight: 100;
     letter-spacing: 1px;
     line-height: 1.5;
     font-size: 24px;
