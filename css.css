@@ -68,7 +68,6 @@ h3 {
 #portfolio {
     background: url(/img/portfolio.jpg);
     background-size: cover;
-    background-attachment: fixed;
 
 }
 
