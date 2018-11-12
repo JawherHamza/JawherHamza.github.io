@@ -65,6 +65,7 @@ h3 {
     padding-bottom: 20px;
 }
 
+
 #portfolio {
     background: url(/img/portfolio.jpg);
     background-size: cover;
@@ -89,7 +90,7 @@ h3 {
 blockquote {
     padding: 10px 20px;
     margin: 0 0 20px;
-    font-size: 21.5px;
+    font-size: 21px;
     display: block;
     position: relative;
     padding-left: 90px;
@@ -100,7 +101,7 @@ blockquote {
 
 blockquote:before {
     content: "\"";
-    font-size: 60px;
+    font-size: 70px;
     font-family: FontAwesome;
     position: absolute;
     top: -8px;
@@ -114,10 +115,6 @@ blockquote span:before {
 
 .nav-item {
     font-family: "Raleway", "Helvetica Neue", Arial, sans-serif;
-}
-
-.fa-info-circle {
-    text-align: center;
 }
 
 footer :hover {
@@ -145,6 +142,18 @@ footer a {
     font-size: 14px;
     border: 1px solid #999;
     border-radius: 4px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgba(254, 82, 76, 1);
+}
+
+#cv a:hover {
+    color: #FFF;
+    border: none;
+    text-decoration: none;
+    background-color: rgba(254, 82, 76, 1);
 }
 
 .en-tete {
