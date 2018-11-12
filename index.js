@@ -1,6 +1,12 @@
 /* Created By Jawher Hamza (Otto Development) */
 
 $(document).ready(function () {
+    $('.navbar-toggler').click(function () {
+        $(".navbar").css("background-color", "rgba(254, 82, 76, 1)");
+        $("#dash").css("color", "white");
+        $("#dash2").css("color", "white");
+    });
+
     $('.owl-carousel').owlCarousel({
         loop: true,
         margin: 10,
@@ -28,7 +34,6 @@ $(document).ready(function () {
             $(".navbar").css("background-color", "transparent");
             $("#dash").css("color", "rgba(254, 82, 76, 1)");
             $("#dash2").css("color", "rgba(254, 82, 76, 1)");
-
         }
     });
 
@@ -48,4 +53,4 @@ function sendMail() {
         window.open('mailto:jawher_hamza@yahoo.fr?subject=Hi I\'m ' + name + '&body=' + message + ' My Phone Number :' + phone + '');
 }
 
-
+document.getElementById("year").innerHTML = (new Date()).getFullYear();

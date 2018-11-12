@@ -68,6 +68,8 @@ h3 {
 #portfolio {
     background: url(/img/portfolio.jpg);
     background-size: cover;
+    background-attachment: fixed;
+
 }
 
 #home-section {
@@ -110,15 +112,6 @@ blockquote span:before {
     padding: 0 10px 0 0;
 }
 
-blockquote span,
-.gray {
-    padding: 10px 0;
-    display: block;
-    font-size: 16px;
-    color: #999;
-}
-
-
 .nav-item {
     font-family: "Raleway", "Helvetica Neue", Arial, sans-serif;
 }
@@ -126,12 +119,6 @@ blockquote span,
 .fa-info-circle {
     text-align: center;
 }
-
-.aproposicon {
-    margin-bottom: 40px;
-    color: rgba(254, 82, 76, 1);
-}
-
 
 footer :hover {
     text-decoration: none;
@@ -162,6 +149,7 @@ footer a {
 
 .en-tete {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .en-tete2nd {
@@ -194,15 +182,20 @@ h2 {
 
 .caption {
     font-weight: 100;
-    font-size: 20px;
+    font-size: 16px;
+    color: rgb(172, 170, 170);
 }
 
-.white {
-    color: white;
+blockquote span {
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 100;
+    color: #999;
 }
+
 
 .aa,
-bb {
+.bb {
     margin-bottom: 30px;
 }
 
