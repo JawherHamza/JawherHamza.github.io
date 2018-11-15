@@ -262,12 +262,9 @@ blockquote span {
 }
 
 
-/* Contact */
-.contact-form h3 {
-    color: rgba(254, 82, 76, 1);
-}
 
-#adress {
+#adress,
+.contact-form h3 {
     color: rgba(254, 82, 76, 1)
 }
 
@@ -278,4 +275,26 @@ blockquote span {
     background: rgba(254, 82, 76, 1);
     padding: 10px 30px;
     font-weight: 100;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 330px;
+    height: 330px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.passion-member {
+    text-align: center;
+}
+
+.cpmtEl {
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: 100;
+}
+
+.cpmtEl i {
+    cursor: pointer;
 }
