@@ -297,4 +297,9 @@ blockquote span {
 
 .cpmtEl i {
     cursor: pointer;
+    color: #999;
+}
+
+.cpmtEl i:hover {
+    color: #0083D7;
 }
