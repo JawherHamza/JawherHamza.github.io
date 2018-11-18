@@ -54,3 +54,5 @@ function sendMail() {
 }
 
 document.getElementById("year").innerHTML = (new Date()).getFullYear();
+
+new WOW().init();

@@ -303,5 +303,15 @@ blockquote span {
 }
 
 .cpmtEl i:hover {
-    color: #0083D7;
+    color: rgba(254, 82, 76, 1);
+}
+
+.item {
+    cursor: grab;
+}
+
+.carrouselImg {
+    height: 169px;
+    width: 300px;
+
 }
