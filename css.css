@@ -58,13 +58,11 @@ h3 {
 #dash2 {
     color: rgba(254, 82, 76, 1);
     font-size: 14px;
-
 }
 
 #myPic {
     margin-bottom: 20px;
     border-radius: 15px;
-    ;
     width: 285px;
 }
 
@@ -76,7 +74,10 @@ hr {
     background: url(/img/portfolio.jpg);
     background-size: cover;
     background-attachment: fixed;
+}
 
+.fadeInUp {
+    animation-name: fadeInUp;
 }
 
 #home-section {
@@ -131,7 +132,6 @@ footer :hover {
 footer {
     background: rgba(54, 53, 54, .96);
     padding-top: 15px;
-
 }
 
 footer a {
@@ -208,12 +208,10 @@ blockquote span {
     color: #999;
 }
 
-
 .aa,
 .bb {
     margin-bottom: 30px;
 }
-
 
 .copynote {
     background-color: rgba(0, 0, 0, 0.2)
