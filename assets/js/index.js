@@ -1,4 +1,4 @@
-/* Created By Jawher Hamza (Otto Development) */
+/* Created By Jawher Hamza */
 
 $(document).ready(function () {
     $('.navbar-toggler').click(function () {
