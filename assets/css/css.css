@@ -281,8 +281,8 @@ blockquote span {
 
 .img-circle {
     border-radius: 50%;
-    width: 330px;
-    height: 330px;
+    width: 300px;
+    height: 300px;
     margin-bottom: 20px;
     margin-top: 40px;
 }
@@ -304,4 +304,19 @@ blockquote span {
 
 .carrouselImg {
     cursor: pointer;
+}
+
+.potfolioModal {
+    background-color: transparent;
+    border: none;
+}
+
+.owl-nav {
+    text-align: center;
+    font-size: 80px;
+}
+
+.owl-prev,
+.owl-next {
+    margin: 80px;
 }
