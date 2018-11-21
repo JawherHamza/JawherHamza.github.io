@@ -1,3 +1,3 @@
 https://jawherhamza.github.io
 https://jawherhamza.github.io/assets/files/CV.pdf
-Sitemap: http://jawherhamza.github.io/sitemap.xml
+Sitemap: https://jawherhamza.github.io/sitemap.xml
