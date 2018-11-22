@@ -1,3 +1,5 @@
 https://jawherhamza.github.io/
 https://jawherhamza.github.io/assets/files/CV.pdf
 https://jawherhamza.github.io/sitemap.xml
+User-agent: *
+Disallow:
