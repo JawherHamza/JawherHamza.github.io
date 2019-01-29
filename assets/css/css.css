@@ -124,6 +124,10 @@ blockquote span:before {
     font-family: "Raleway", "Helvetica Neue", Arial, sans-serif;
 }
 
+.sr-only {
+    color: darkred;
+}
+
 footer :hover {
     text-decoration: none;
     color: rgba(254, 82, 76, 1);
@@ -306,6 +310,11 @@ blockquote span {
 
 .carrouselImg {
     cursor: pointer;
+    height: 250px;
+    width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+
 }
 
 /* on hover carousel */
