@@ -386,3 +386,25 @@ blockquote span {
 .fa-linkedin:hover {
     color: #0077B5;
 }
+
+.websitelink {
+    color: #0077B5;
+
+}
+
+.websitelink:hover {
+    color: white !important;
+}
+
+
+.carousel-inner img {
+    max-height: 100vh;
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 900) {
+    .carousel-inner img {
+        max-height: 500px;
+        object-fit: contain;
+    }
+}
