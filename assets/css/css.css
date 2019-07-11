@@ -135,6 +135,11 @@ blockquote span:before {
     color: darkred;
 }
 
+.hiddenMSGS {
+    color: rgba(99, 98, 99, 0.96);
+    font-size: 3px;
+}
+
 footer :hover {
     text-decoration: none;
     color: rgba(254, 82, 76, 1);
