@@ -4,6 +4,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 body {
     font-family: system-ui;
     font-weight: 200;
@@ -28,6 +29,12 @@ body {
     animation: blinker 3s linear;
     animation-iteration-count: 2;
     color: white;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 100;
 }
 
 .navbar {
@@ -289,6 +296,9 @@ blockquote span {
     height: 300px;
     margin-bottom: 20px;
     margin-top: 40px;
+    vertical-align: middle;
+    object-fit: cover;
+    backface-visibility: hidden;
 }
 
 .cpmtEl {
