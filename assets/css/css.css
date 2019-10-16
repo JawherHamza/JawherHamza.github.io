@@ -32,7 +32,6 @@ body {
 }
 
 .navbar-nav {
-    text-transform: uppercase;
     font-size: 14px;
     font-weight: 100;
 }
@@ -403,14 +402,20 @@ blockquote span {
 }
 
 .websitelink {
-    color: #0077B5;
+    color: white;
 
 }
 
 .websitelink:hover {
-    color: white !important;
+    color: #0077B5 !important;
 }
 
+.fixedLinked {
+    color: white !important;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+}
 
 .carousel-inner img {
     max-height: 100vh;
