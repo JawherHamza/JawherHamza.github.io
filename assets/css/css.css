@@ -233,6 +233,7 @@ blockquote span {
 }
 
 .progress-title {
+    cursor: pointer;
     font-size: 14px;
     font-weight: 700;
     color: #333;
@@ -378,6 +379,18 @@ blockquote span {
     text-align: center;
     font-size: 80px;
 }
+
+.modal-body {
+    max-height: 75vh;
+    overflow-y: auto;
+
+}
+
+.competences .modal-body i {
+    padding: 0 !important;
+    cursor: none;
+}
+
 
 .owl-prev,
 .owl-next {

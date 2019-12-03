@@ -56,6 +56,17 @@ function sendMail() {
         window.open('mailto:jawher_hamza@yahoo.fr?subject=Hi I\'m ' + name + '&body=' + message + ' My Phone Number :' + phone + '');
 }
 
-document.getElementById("year").innerHTML = (new Date()).getFullYear();
+function openLink(search) {
+    window.open("http://www.google.com/search?q=" + search, '_blank')
+}
+
+document.querySelectorAll('.progress-title').forEach(item => {
+    item.addEventListener('click', event => {
+        window.open("http://www.google.com/search?q=" + event.srcElement.innerHTML, '_blank')
+    })
+})
+
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
 
 new WOW().init();
