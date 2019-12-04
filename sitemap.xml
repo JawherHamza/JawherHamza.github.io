@@ -9,12 +9,17 @@
 
 <url>
   <loc>https://jawherhamza.github.io/</loc>
-  <lastmod>2018-11-20T19:51:15+00:00</lastmod>
+  <lastmod>2019-11-20T19:51:15+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://jawherhamza.github.io/assets/files/CV.pdf</loc>
-  <lastmod>2018-11-20T19:51:15+00:00</lastmod>
+  <loc>https://jawherhamza.github.io/assets/files/CV - FR.pdf</loc>
+  <lastmod>2019-11-20T19:51:15+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jawherhamza.github.io/assets/files/CV - EN.pdf</loc>
+  <lastmod>2019-11-20T19:51:15+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
