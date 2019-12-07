@@ -196,7 +196,7 @@
 	</section>
 
 	<section id="competences" class="content-section competences wow fadeInUp">
-		<div class="container">
+		<div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 en-tete">
 					<h2>Compétences</h2> <i
@@ -206,34 +206,10 @@
 				</div>
 			</div>
 			<div class="row">
-				<!-- Langages procéduraux et orientés objets Modal -->
-				<div class="col-lg-4 col-md-6 cpmtEl">
-					<i class="fa fa-5x fa-cogs" data-toggle="modal" data-target="#LPOOModal"></i>
-					<h5 class="cmptElTitle">Langages procéduraux et orientés objets</h5>
-					<div class="modal fade" id="LPOOModal">
-						<div class="modal-dialog modal-dialog-centered">
-							<div class="modal-content">
-								<div class="modal-body">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<div class="container-fluid">
-										<div class="row">
-											<div class="col-md-12 col-lg-12">
-												<h3 class="progress-title">C </h3>
-												<h3 class="progress-title">C# </h3>
-												<h3 class="progress-title">JAVA </h3>
-												<h3 class="progress-title">COBOL</h3>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Dev Web Modal  -->
-				<div class="col-lg-4 col-md-6 cpmtEl">
+				<!-- Front End -->
+				<div class="col-lg-3 col-md-6 cpmtEl">
 					<i data-toggle="modal" data-target="#DWModal" class="fa fa-5x fa-newspaper"></i>
-					<h5 class="cmptElTitle">Développement Web</h5>
+					<h5 class="cmptElTitle">Front End</h5>
 					<div class="modal fade" id="DWModal">
 						<div class="modal-dialog modal-dialog-centered">
 							<div class="modal-content">
@@ -243,29 +219,17 @@
 										<div class="row">
 											<div class="col">
 												<h3 class="caption" style="font-size:20px;">Front End</h3>
-												<h3 class="progress-title">JavaScript </h3>
-												<h3 class="progress-title">React.JS / Redux
+												<h3 class="progress-title">JavaScript ES5/6 </h3>
+												<h3 class="progress-title">React.JS / Redux / NextJS
 												</h3>
-												<h3 class="progress-title">Vue.JS / Vuex
+												<h3 class="progress-title">Vue.JS / Vuex / NuxtJS
 												</h3>
 												<h3 class="progress-title">jQuery </h3>
-												<h3 class="progress-title">UI Libraries (Bootstrap /
-													MaterialUI /
-													Element UI ...)
-												</h3>
-												<h3 class="progress-title">JSON / XML
-												</h3>
+												<h3 class="progress-title">UI Librairies (Material UI, Element UI,
+													Bootstrap)</h3>
 												<h3 class="progress-title">HTML5 / CSS3 </h3>
-												<h3 class="caption" style="font-size:20px;">Back End</h3>
-												<h3 class="progress-title">ASP.NET Core </h3>
-												<h3 class="progress-title">Node.JS </h3>
-												<h3 class="progress-title">J2EE</h3>
-												<h3 class="progress-title">PHP</h3>
-												<h3 class="caption" style="font-size:20px;">Test</h3>
-												<h3 class="progress-title">Selenium</h3>
-												<h3 class="progress-title">Jest </h3>
-												<h3 class="caption" style="font-size:20px;">Package Manager</h3>
-												<h3 class="progress-title">NPM / Yarn / Bower </h3>
+												<h3 class="progress-title">SASS / LESS </h3>
+												<h3 class="progress-title">JSON / XML </h3>
 											</div>
 										</div>
 									</div>
@@ -274,11 +238,10 @@
 						</div>
 					</div>
 				</div>
-
-				<!-- Dev Mobile Modal -->
-				<div class="col-lg-4 col-md-6 cpmtEl">
-					<i class="fa fa-5x fa-mobile" data-toggle="modal" data-target="#DMModal"></i>
-					<h5 class="cmptElTitle">Développement Mobile</h5>
+				<!-- Back End -->
+				<div class="col-lg-3 col-md-6 cpmtEl">
+					<i class="fa fa-5x fa-server" data-toggle="modal" data-target="#DMModal"></i>
+					<h5 class="cmptElTitle">Back End</h5>
 					<div class="modal fade" id="DMModal">
 						<div class="modal-dialog modal-dialog-centered">
 							<div class="modal-content">
@@ -287,7 +250,12 @@
 									<div class="container-fluid">
 										<div class="row">
 											<div class="col-md-12 col-lg-12">
-												<h3 class="progress-title">Android </h3>
+												<h3 class="caption" style="font-size:20px;">Back End</h3>
+												<h3 class="progress-title">NodeJS </h3>
+												<h3 class="progress-title">ExpressJS </h3>
+												<h3 class="progress-title">ASP.NET Core (C# ,Entity Framework)</h3>
+												<h3 class="progress-title">J2EE (JAVA)</h3>
+												<h3 class="progress-title">PHP</h3>
 											</div>
 										</div>
 									</div>
@@ -296,47 +264,56 @@
 						</div>
 					</div>
 				</div>
-
-				<!-- Meth Analy et Model Modal -->
-				<div class="col-lg-4 col-md-6 cpmtEl">
-					<i class="fas fa-chart-pie fa-5x" data-toggle="modal" data-target="#MAMModal"></i>
-					<h5 class="cmptElTitle">Méthode d’analyse et modélisation</h5>
+				<!-- GESTION VERISONS AND PROJECTS -->
+				<div class="col-lg-3 col-md-6 cpmtEl">
+					<i class="fas fa-code-branch fa-5x" data-toggle="modal" data-target="#MAMModal"></i>
+					<h5 class="cmptElTitle">Gestion des versions et de projet</h5>
 					<div class="modal fade" id="MAMModal">
 						<div class="modal-dialog modal-dialog-centered">
 							<div class="modal-content">
 								<div class="modal-body">
 									<button type="button" class="close" data-dismiss="modal">&times;</button>
 									<div class="container-fluid">
-										<h3 class="progress-title">UML </h3>
-										<h3 class="progress-title">Etudes de cas</h3>
-										<h3 class="progress-title">Analyse fonctionnelle</h3>
+										<h3 class="caption" style="font-size:20px;">Gestion des versions et de projet
+										</h3>
+										<h3 class="progress-title">GIT</h3>
+										<h3 class="progress-title">SCRUM</h3>
+										<h3 class="progress-title">Trello</h3>
+										<h3 class="progress-title">Slack</h3>
+										<h3 class="progress-title">Microsoft Teams</h3>
+										<h3 class="progress-title">JIRA</h3>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- DeskTop Applications -->
-				<div class="col-lg-4 col-md-6 cpmtEl">
-					<i class="fas fa-desktop fa-5x" data-toggle="modal" data-target="#desktop_modal"></i>
-					<h5 class="cmptElTitle">Applications de bureau</h5>
-					<div class="modal fade" id="desktop_modal">
+				<!-- Test & Automatisation -->
+				<div class="col-lg-3 col-md-6 cpmtEl">
+					<i class="fa fa-5x fa-cogs" data-toggle="modal" data-target="#LPOOModal"></i>
+					<h5 class="cmptElTitle">Test & Automatisation</h5>
+					<div class="modal fade" id="LPOOModal">
 						<div class="modal-dialog modal-dialog-centered">
 							<div class="modal-content">
 								<div class="modal-body">
 									<button type="button" class="close" data-dismiss="modal">&times;</button>
 									<div class="container-fluid">
-										<h3 class="progress-title">Windows Forms ( C# / .NET) </h3>
-										<h3 class="progress-title">SWING ( JAVA ) </h3>
+										<div class="row">
+											<div class="col-md-12 col-lg-12">
+												<h3 class="caption" style="font-size:20px;">Test & Automatisation</h3>
+												<h3 class="progress-title">Selenium</h3>
+												<h3 class="progress-title">Jest</h3>
+												<h3 class="progress-title">jUnit</h3>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-
-				<!--base de données Modal -->
-				<div class="col-lg-4 col-md-6 cpmtEl">
+				<!--DataBases -->
+				<div class="col-lg-3 col-md-6 cpmtEl">
 					<i class="fa fa-5x fa-database" data-toggle="modal" data-target="#BDModal"></i>
 					<h5 class="cmptElTitle">Base de données</h5>
 					<div class="modal fade" id="BDModal">
@@ -356,8 +333,6 @@
 											<div class="col-md-12 col-lg-6">
 												<h3 class="caption" style="font-size:20px;">Gestion de base de données
 												</h3>
-												<h3 class="progress-title">MongoDB
-												</h3>
 												<h3 class="progress-title">Microsoft Access</h3>
 												<h3 class="progress-title">Oracle SQL developer</h3>
 												<h3 class="progress-title">MySQL</h3>
@@ -369,9 +344,48 @@
 						</div>
 					</div>
 				</div>
-
+				<!-- DeskTop Applications -->
+				<div class="col-lg-3 col-md-6 cpmtEl">
+					<i class="fas fa-desktop fa-5x" data-toggle="modal" data-target="#desktop_modal"></i>
+					<h5 class="cmptElTitle">Applications de bureau</h5>
+					<div class="modal fade" id="desktop_modal">
+						<div class="modal-dialog modal-dialog-centered">
+							<div class="modal-content">
+								<div class="modal-body">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<div class="container-fluid">
+										<h3 class="caption" style="font-size:20px;">Applications de bureau</h3>
+										<h3 class="progress-title">Windows Forms ( C# / .NET) </h3>
+										<h3 class="progress-title">SWING ( JAVA ) </h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Meth Analy et Model Modal -->
+				<div class="col-lg-3 col-md-6 cpmtEl">
+					<i class="fas fa-chart-pie fa-5x" data-toggle="modal" data-target="#MAMModal"></i>
+					<h5 class="cmptElTitle">Méthode d’analyse et modélisation</h5>
+					<div class="modal fade" id="MAMModal">
+						<div class="modal-dialog modal-dialog-centered">
+							<div class="modal-content">
+								<div class="modal-body">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<div class="container-fluid">
+										<h3 class="caption" style="font-size:20px;">Méthode d’analyse et modélisation
+										</h3>
+										<h3 class="progress-title">UML </h3>
+										<h3 class="progress-title">Etudes de cas</h3>
+										<h3 class="progress-title">Analyse fonctionnelle</h3>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<!-- More -->
-				<div class="col-12 cpmtEl justify-content-center">
+				<div class="col-lg-3 col-md-6 cpmtEl">
 					<i class="fa fa-5x fa-plug" data-toggle="modal" data-target="#GPModal"></i>
 					<h5 class="cmptElTitle">Autres Outils</h5>
 					<div class="modal fade" id="GPModal">
@@ -380,13 +394,17 @@
 								<div class="modal-body">
 									<button type="button" class="close" data-dismiss="modal">&times;</button>
 									<div class="container-fluid">
-										<h3 class="progress-title">Scrum</h3>
-										<h3 class="progress-title">GIT</h3>
+										<h3 class="caption" style="font-size:20px;">Autres Outils</h3>
+										<h3 class="progress-title">Android</h3>
+										<h3 class="progress-title">Axios</h3>
 										<h3 class="progress-title">Postman</h3>
 										<h3 class="progress-title">Bash / Shell / PowerShell</h3>
+										<h3 class="progress-title">ESLint</h3>
+										<h3 class="progress-title">C </h3>
+										<h3 class="progress-title">COBOL</h3>
 										<h3 class="progress-title">Putty</h3>
-										<h3 class="progress-title">JIRA</h3>
-										<h3 class="progress-title">Microsoft Teams / Slack</h3>
+										<h3 class="progress-title">NPM / Yarn / Bower </h3>
+										<h3 class="progress-title">Docker </h3>
 									</div>
 								</div>
 							</div>
