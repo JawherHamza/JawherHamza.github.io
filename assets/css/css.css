@@ -391,6 +391,9 @@ blockquote span {
     cursor: none;
 }
 
+.checked {
+    color: orange
+}
 
 .owl-prev,
 .owl-next {
