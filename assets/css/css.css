@@ -77,7 +77,7 @@ hr {
 }
 
 #portfolio {
-    background: url(/assets/files/img/Portfolio/portfolio.jpg);
+    background: url('https://i.pinimg.com/originals/b5/93/fa/b593fac9323c1a514ab53101109835a9.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
