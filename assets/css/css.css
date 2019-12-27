@@ -77,7 +77,7 @@ hr {
 }
 
 #portfolio {
-    background: url('https://i.pinimg.com/originals/b5/93/fa/b593fac9323c1a514ab53101109835a9.jpg');
+    background-color: rgba(160, 160, 160, 0.486);
     background-size: cover;
     background-attachment: fixed;
 }
