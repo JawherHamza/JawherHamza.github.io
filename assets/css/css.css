@@ -452,3 +452,7 @@ blockquote span {
     width:100%;
     display: block;
 }
+
+.project-subtitle{
+    color:grey;
+}
