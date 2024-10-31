@@ -86,7 +86,9 @@ hr {
 .fadeInUp {
     animation-name: fadeInUp;
 }
-
+.twoBloc {
+    text-align: left !important;
+}
 #home-section {
     background: url('../../assets/files/img/home.jpg');
     background-size: cover;
