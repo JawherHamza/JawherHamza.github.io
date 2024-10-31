@@ -41,7 +41,7 @@ $(document).ready(function () {
     });
 
     new TypeIt('#example1', {
-        strings: 'Bienvenue sur mon Portfolio !',
+        strings: 'Welcome to my Portfolio!',
         speed: 50,
         autoStart: false
     });
