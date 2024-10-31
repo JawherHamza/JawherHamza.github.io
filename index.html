@@ -1,507 +1,488 @@
 <!-- Created By Jawher Hamza -->
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="keywords" content="Jawher Hamza, Jawher, FullStack JavaScript, Jawher Hamza Portfolio, Portfolio" />
+    <meta name="description" content="Jawher Hamza Portfolio" />
+    <meta name="author" content="Jawher Hamza" />
+    <!-- Icon & Title -->
+    <link rel="shortcut icon" href="./assets/files/img/jh.ico" />
+    <title>Jawher Hamza Portfolio</title>
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+    <!-- Plugin -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <!-- Custom -->
+    <link rel="stylesheet" href="./assets/css/css.css" />
+    <link rel="stylesheet" href="./assets/css/animate.css" />
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<meta name="keywords" content="Jawher Hamza, Jawher, FullStack JavaScript, Jawher Hamza Portfolio, Portfolio">
-	<meta name="description" content="Jawher Hamza Portfolio">
-	<meta name="author" content="Jawher Hamza">
-	<!-- Icon & Title -->
-	<link rel="shortcut icon" href="./assets/files/img/jh.ico" />
-	<title>Jawher Hamza Portfolio</title>
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-		integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-	<!-- Plugin -->
-	<link rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-	<!-- Custom -->
-	<link rel="stylesheet" href="./assets/css/css.css">
-	<link rel="stylesheet" href="./assets/css/animate.css">
-</head>
+  <body>
+    <h1 style="display: none">Jawher Hamza Portfolio</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand"><i id="dash" class="fa fa-code"></i> Jawher Hamza <i id="dash2" class="fa fa-code"></i></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="#apropos" class="nav-link">A propos</a></li>
+            <li class="nav-item"><a href="#cursus" class="nav-link">Cursus</a></li>
+            <li class="nav-item"><a href="#competences" class="nav-link">Compétences</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header id="home-section" class="content-section">
+      <div class="container display-4">
+        <p id="example1"></p>
+      </div>
+    </header>
 
-<body>
-	<h1 style="display:none;">Jawher Hamza Portfolio</h1>
-	<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-		<div class="container">
-			<a href="#" class="navbar-brand"><i id="dash" class="fa fa-code"></i> Jawher Hamza <i id="dash2"
-					class="fa fa-code"></i></a>
-			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span
-					class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarCollapse">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"> <a href="#apropos" class="nav-link">A propos</a> </li>
-					<li class="nav-item"> <a href="#cursus" class="nav-link">Cursus</a> </li>
-					<li class="nav-item"> <a href="#competences" class="nav-link">Compétences</a> </li>
-					<li class="nav-item"> <a href="#portfolio" class="nav-link">Portfolio</a> </li>
-					<li class="nav-item"> <a href="#passion" class="nav-link">Mes Passions</a> </li>
-					<li class="nav-item"> <a href="#contact" class="nav-link">Contact</a> </li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+    <section id="apropos" class="content-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 en-tete">
+            <h2>A Propos</h2>
+            <i class="col-md-12 col-sm-12 col-xs-12 icon fa fa-info-circle fa-3x"></i>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <blockquote>
+				I effectively collaborated with diverse teams across various languages and
+				worked with companies of different sizes and visions. Always ready to
+				contribute to impactful projects
+              <br />
+            </blockquote>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+            <h3 class="caption">Présentation :</h3>
+            <div>
+              <figure>
+                <img src="./assets/files/img/me.jpg" alt="me" id="myPic" />
+                <figcaption>
+                  <p>
+                    <strong>Nom</strong> : Hamza <br /><strong>Prénom</strong> : <bold>Jawher</bold><br /><strong>E-mail</strong> :
+                    jawher_hamza@yahoo.fr<br /><strong>Date de Naissance</strong> : 10/04/1997<br /><strong>Statut</strong>
+                  </p>
+                </figcaption>
+              </figure>
+              <p id="cv">
+                <a title="CV - Jawher Hamza" href="./assets/files/CV - FR.pdf"><i class="fa fa-download fa-1x"></i> &nbsp; Télécharger mon CV - FR</a>
+              </p>
+              <p id="cv">
+                <a title="CV - Jawher Hamza" href="./assets/files/CV - EN.pdf"><i class="fa fa-download fa-1x"></i> &nbsp; Télécharger mon CV - EN</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<header id="home-section" class="content-section">
-		<div class="container display-4">
-			<p id="example1"></p>
-		</div>
-	</header>
+    <section id="cursus" style="background-color: rgba(190, 190, 190, 0.418)" class="content-section wow fadeInUp">
+      <div class="container">
+        <div class="en-tete">
+          <h2>Cursus</h2>
+          <i class="col-xs-12 col-sm-12 col-md-12 col-lg-12 icon fa fa-graduation-cap fa-3x"></i>
+        </div>
+        <div class="twoBloc row">
+          <div class="blocLeft col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="d-flex flex-column en-tete2nd">
+              <h2 class="p-1">Formation</h2>
+              <h3 class="p-1 caption">Scolaire</h3>
+            </div>
+            <div class="aa">
+              <div class="row">
+                <div class="col-3 text-center">
+                  2015 / 2016<br />
+                  <hr />
+                </div>
+                <div class="col-6 text-center">
+                  <i class="fa fa-book fa-3x"></i>
+                  <h4>Lycée Farhat Hached Rades</h4>
+                  <p>Baccalauréat Technique</p>
+                </div>
+              </div>
+            </div>
+            <div class="aa">
+              <div class="row">
+                <div class="col-3 text-center">
+                  2016 -> 2019<br />
+                  <hr />
+                </div>
+                <div class="col-6 text-center">
+                  <i class="fa fa-book fa-3x"></i>
+                  <h4>Institut supérieur des études technologiques de Radès</h4>
+                  <p>Licence en Développement des Systèmes d'Information</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="blocRight col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="d-flex flex-row-reverse">
+              <div class="d-flex flex-column en-tete2nd">
+                <h2 class="p-1">Expérience</h2>
+                <h3 class="p-1 text-center caption">Professionnelle</h3>
+              </div>
+            </div>
+            <div class="bb">
+              <div class="d-flex flex-row-reverse">
+                <div class="col-3 text-center">
+                  01/2018 -> 02/2018<br />
+                  <hr />
+                </div>
+                <div class="col-6 text-center">
+                  <i class="fa fa-briefcase fa-3x"></i>
+                  <h4>PeakSource</h4>
+                  <p>Stagiaire</p>
+                </div>
+              </div>
+            </div>
+            <div class="bb">
+              <div class="d-flex flex-row-reverse">
+                <div class="col-3 text-center">
+                  12/2018 -> 07/2019<br />
+                  <hr />
+                </div>
+                <div class="col-6 text-center">
+                  <i class="fa fa-briefcase fa-3x"></i>
+                  <h4>HMMG</h4>
+                  <p>Stagiaire</p>
+                </div>
+              </div>
+            </div>
+            <div class="bb">
+              <div class="d-flex flex-row-reverse">
+                <div class="col-3 text-center">
+                  07/2019 -> 02/2020 <br />
+                  <hr />
+                </div>
+                <div class="col-6 text-center">
+                  <i class="fa fa-briefcase fa-3x"></i>
+                  <h4>Sopra HR Software</h4>
+                  <p>Développeur Front End et Consultant</p>
+                </div>
+              </div>
+            </div>
+            <div class="bb">
+              <div class="d-flex flex-row-reverse">
+                <div class="col-3 text-center">
+                  02/2020 -> présent<br />
+                  <hr />
+                </div>
+                <div class="col-6 text-center">
+                  <i class="fa fa-briefcase fa-3x"></i>
+                  <h4>Vneuron</h4>
+                  <p>Développeur FullStack</p>
+                </div>
+              </div>
+            </div>
+            <div class="bb">
+              <div class="d-flex flex-row-reverse">
+                <div class="col-3 text-center">
+                  07/2020 -> 11/2020<br />
+                  <hr />
+                </div>
+                <div class="col-6 text-center">
+                  <i class="fa fa-briefcase fa-3x"></i>
+                  <h4>NEXT SOLUTION</h4>
+                  <p>Développeur Front End</p>
+                </div>
+              </div>
+            </div>
+            <div class="bb">
+              <div class="d-flex flex-row-reverse">
+                <div class="col-3 text-center">
+                  10/2020 -> Présent<br />
+                  <hr />
+                </div>
+                <div class="col-6 text-center">
+                  <i class="fa fa-briefcase fa-3x"></i>
+                  <h4>Platform Purple Inc</h4>
+                  <p>Développeur Front End X Project Owner</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-	<section id="apropos" class="content-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 en-tete">
-					<h2>A Propos</h2> <i class="col-md-12 col-sm-12 col-xs-12 icon fa fa-info-circle fa-3x"></i>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-					<h3 class="caption">Projet professionnel :</h3>
-					<blockquote>Je suis lié au développement logiciel, je fais le suivi des derniers changements dans le domaine et je le fais avec passion. J'ai mis en place ce site afin d'exposer ma carrière et partager ma passion.
-						<br>
-						<span>Jawher Hamza</span>
-					</blockquote>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-					<h3 class="caption">Présentation :</h3>
-					<div>
-						<figure>
-							<img src="./assets/files/img/me.jpg" alt="me" id="myPic">
-							<figcaption>
-								<p><strong>Nom</strong> : Hamza <br><strong>Prénom</strong> :
-									<bold>Jawher</bold><br><strong>E-mail</strong>
-									: jawher_hamza@yahoo.fr<br><strong>Date de Naissance</strong> :
-									10/04/1997<br><strong>Statut</strong>
-							</figcaption>
-						</figure>
-						<p id="cv"> <a title="CV - Jawher Hamza" href="./assets/files/CV - FR.pdf"><i
-									class="fa fa-download fa-1x"></i>
-								&nbsp; Télécharger mon CV - FR</a></p>
-						<p id="cv"> <a title="CV - Jawher Hamza" href="./assets/files/CV - EN.pdf"><i
-									class="fa fa-download fa-1x"></i>
-								&nbsp; Télécharger mon CV - EN</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+    <section id="competences" class="content-section competences wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 en-tete">
+            <h2>Compétences</h2>
+            <i class="col-xs-12 col-sm-12 col-md-12 col-lg-12 icon fa fa-briefcase fa-3x"></i>
+            <h3 class="caption">Ci-dessous vous trouverez mes compétences<br />( cliquez sur les différentes compétences )</h3>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Front End -->
+          <div class="col-lg-3 col-md-6 cpmtEl">
+            <i data-toggle="modal" data-target="#DWModal" class="fa fa-5x fa-newspaper"></i>
+            <h5 class="cmptElTitle">Front End</h5>
+            <div class="modal fade" id="DWModal">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col">
+                          <h3 class="caption" style="font-size: 20px">Front End</h3>
 
-	<section id="cursus" style="background-color: rgba(190, 190, 190, 0.418);" class="content-section wow fadeInUp">
-		<div class="container">
-			<div class="en-tete">
-				<h2>Cursus</h2> <i class="col-xs-12 col-sm-12 col-md-12 col-lg-12 icon fa fa-graduation-cap fa-3x"></i>
-			</div>
-			<div class="twoBloc row">
-				<div class="blocLeft col-xs-12 col-sm-12 col-md-6 col-lg-6">
-					<div class="d-flex flex-column en-tete2nd">
-						<h2 class="p-1 ">Formation</h2>
-						<h3 class="p-1 caption">Scolaire</h3>
-					</div>
-					<div class="aa">
-						<div class="row">
-							<div class="col-3 text-center"> 2015 / 2016<br>
-								<hr>
-							</div>
-							<div class="col-6 text-center"> <i class="fa fa-book fa-3x"></i>
-								<h4>Lycée Farhat Hached Rades</h4>
-								<p>Baccalauréat Technique</p>
-							</div>
-						</div>
-					</div>
-					<div class="aa">
-						<div class="row">
-							<div class="col-3 text-center"> 2016 -> 2019<br>
-								<hr>
-							</div>
-							<div class="col-6 text-center"> <i class="fa fa-book fa-3x"></i>
-								<h4>Institut supérieur des études technologiques de Radès</h4>
-								<p>Licence en Développement des Systèmes d'Information</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="blocRight col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
-					<div class="d-flex flex-row-reverse">
-						<div class="d-flex flex-column en-tete2nd">
-							<h2 class="p-1 ">Expérience</h2>
-							<h3 class="p-1 text-center caption">Professionnelle</h3>
-						</div>
-					</div>
-					<div class="bb">
-						<div class="d-flex flex-row-reverse">
-							<div class="col-3 text-center"> 01/2018 -> 02/2018<br>
-								<hr>
-							</div>
-							<div class="col-6 text-center"> <i class="fa fa-briefcase fa-3x"></i>
-								<h4>PeakSource</h4>
-								<p>Stagiaire</p>
-							</div>
-						</div>
-					</div>
-					<div class="bb">
-						<div class="d-flex flex-row-reverse">
-							<div class="col-3 text-center"> 12/2018 -> 07/2019<br>
-								<hr>
-							</div>
-							<div class="col-6 text-center"> <i class="fa fa-briefcase fa-3x"></i>
-								<h4>HMMG</h4>
-								<p>Stagiaire</p>
-							</div>
-						</div>
-					</div>
-					<div class="bb">
-						<div class="d-flex flex-row-reverse">
-							<div class="col-3 text-center"> 07/2019 -> 02/2020 <br>
-								<hr>
-							</div>
-							<div class="col-6 text-center"> <i class="fa fa-briefcase fa-3x"></i>
-								<h4>Sopra HR Software</h4>
-								<p>Développeur Front End et Consultant</p>
-							</div>
-						</div>
-					</div>
-					<div class="bb">
-						<div class="d-flex flex-row-reverse">
-							<div class="col-3 text-center"> 02/2020 -> présent<br>
-								<hr>
-							</div>
-							<div class="col-6 text-center"> <i class="fa fa-briefcase fa-3x"></i>
-								<h4>Vneuron</h4>
-								<p>Développeur FullStack</p>
-							</div>
-						</div>
-					</div>
-					<div class="bb">
-						<div class="d-flex flex-row-reverse">
-							<div class="col-3 text-center"> 07/2020 -> 11/2020<br>
-								<hr>
-							</div>
-							<div class="col-6 text-center"> <i class="fa fa-briefcase fa-3x"></i>
-								<h4>NEXT SOLUTION</h4>
-								<p>Développeur Front End</p>
-							</div>
-						</div>
-					</div>
-					<div class="bb">
-						<div class="d-flex flex-row-reverse">
-							<div class="col-3 text-center"> 10/2020 -> Présent<br>
-								<hr>
-							</div>
-							<div class="col-6 text-center"> <i class="fa fa-briefcase fa-3x"></i>
-								<h4>Platform Purple Inc</h4>
-								<p>Développeur Front End X Project Owner</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+                          <h3 class="progress-title">JavaScript Frameworks: Vue.js 2 & 3 (Quasar Framework, Nuxt.js), React.js (Next.js)</h3>
 
-	<section id="competences" class="content-section competences wow fadeInUp">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 en-tete">
-					<h2>Compétences</h2> <i
-						class="col-xs-12 col-sm-12 col-md-12 col-lg-12 icon fa fa-briefcase fa-3x"></i>
-					<h3 class="caption">Ci-dessous vous trouverez mes compétences<br>( cliquez sur les différentes
-						compétences )</h3>
-				</div>
-			</div>
-			<div class="row">
-				<!-- Front End -->
-				<div class="col-lg-3 col-md-6 cpmtEl">
-					<i data-toggle="modal" data-target="#DWModal" class="fa fa-5x fa-newspaper"></i>
-					<h5 class="cmptElTitle">Front End</h5>
-					<div class="modal fade" id="DWModal">
-						<div class="modal-dialog modal-dialog-centered">
-							<div class="modal-content">
-								<div class="modal-body">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<div class="container-fluid ">
-										<div class="row">
-											<div class="col">
-												<h3 class="caption" style="font-size:20px;">Front End</h3>
-											
-												<h3 class="progress-title">JavaScript Frameworks: Vue.js 2 & 3 (Quasar Framework, Nuxt.js), React.js (Next.js)
-												</h3>
-												
-												<h3 class="progress-title">Web Technologies: HTML, CSS, SASS, SCSS, Webpack, Vite, Babel
-												</h3>
-												
-												<h3 class="progress-title">UI Libraries: Material-UI, Bootstrap, Element UI, Vuetify </h3>
-												
-											
+                          <h3 class="progress-title">Web Technologies: HTML, CSS, SASS, SCSS, Webpack, Vite, Babel</h3>
 
-												
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-			
-				</div>
-				<!-- Back End -->
-				<div class="col-lg-3 col-md-6 cpmtEl">
-					<i class="fa fa-5x fa-server" data-toggle="modal" data-target="#DMModal"></i>
-					<h5 class="cmptElTitle">Back End</h5>
-					<div class="modal fade" id="DMModal">
-						<div class="modal-dialog modal-dialog-centered">
-							<div class="modal-content">
-								<div class="modal-body">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<div class="container-fluid">
-										<div class="row">
-											<div class="col-md-12 col-lg-12">
-												<h3 class="caption" style="font-size:20px;">Back End</h3>
-												<h3 class="progress-title">Node.js, ASP.NET Core, J2EE  </h3>
-											
-												
-												
-												
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-		
-				</div>
-				<!-- GESTION VERISONS AND PROJECTS -->
-				<div class="col-lg-3 col-md-6 cpmtEl">
-					<i class="fas fa-code-branch fa-5x" data-toggle="modal" data-target="#MAMModal"></i>
-					<h5 class="cmptElTitle">Gestion des versions et de projet</h5>
-					<div class="modal fade" id="MAMModal">
-						<div class="modal-dialog modal-dialog-centered">
-							<div class="modal-content">
-								<div class="modal-body">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<div class="container-fluid">
-										<h3 class="caption" style="font-size:20px;">Gestion des versions et de
-											projet
-										</h3>
-										<h3 class="progress-title">Git (GITflow), Notion, Trello, Slack, Microsoft Teams, JIRA, Zeplin, Scrum methodology</h3>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-				<!-- Test & Automatisation -->
-				<div class="col-lg-3 col-md-6 cpmtEl">
-					<i class="fa fa-5x fa-cogs" data-toggle="modal" data-target="#LPOOModal"></i>
-					<h5 class="cmptElTitle">Test & Automatisation</h5>
-					<div class="modal fade" id="LPOOModal">
-						<div class="modal-dialog modal-dialog-centered">
-							<div class="modal-content">
-								<div class="modal-body">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<div class="container-fluid">
-										<div class="row">
-											<div class="col-md-12 col-lg-12">
-												<h3 class="caption" style="font-size:20px;">Test & Automatisation
-												</h3>
-												<h3 class="progress-title">Jest, Selenium, Cypress, Postman (for API testing)</h3>
-												
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				
-				</div>
-				<!--DataBases -->
-				<div class="col-lg-3 col-md-6 cpmtEl">
-					<i class="fa fa-5x fa-database" data-toggle="modal" data-target="#BDModal"></i>
-					<h5 class="cmptElTitle">Base de données</h5>
-					<div class="modal fade" id="BDModal">
-						<div class="modal-dialog modal-dialog-centered">
-							<div class="modal-content">
-								<div class="modal-body">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<div class="container-fluid">
-										<div class="row">
-											
-												<h3 class="caption" style="font-size:20px;">Langages et frameworks
-													d'interrogation
-													de
-													base de
-													données</h3>
-												<h3 class="progress-title">MongoDB, Redis, PL/SQL, SQL, MySQL, Hibernate </h3>
-												
-											
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				
-				</div>
-				<!-- DeskTop Applications -->
-				<div class="col-lg-3 col-md-6 cpmtEl">
-					<i class="fas fa-desktop fa-5x" data-toggle="modal" data-target="#desktop_modal"></i>
-					<h5 class="cmptElTitle">Applications de bureau</h5>
-					<div class="modal fade" id="desktop_modal">
-						<div class="modal-dialog modal-dialog-centered">
-							<div class="modal-content">
-								<div class="modal-body">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<div class="container-fluid">
-										<h3 class="caption" style="font-size:20px;">Applications de bureau</h3>
-										<h3 class="progress-title">Electron, WinForms (.NET, C#), Java Swing </h3>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-				<!-- Meth Analy et Model Modal -->
-				<div class="col-lg-3 col-md-6 cpmtEl">
-					<i class="fas fa-chart-pie fa-5x" data-toggle="modal" data-target="#MAMModel2"></i>
-					<h5 class="cmptElTitle">Mobille Applications</h5>
-					<div class="modal fade" id="MAMModel2">
-						<div class="modal-dialog modal-dialog-centered">
-							<div class="modal-content">
-								<div class="modal-body">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<div class="container-fluid">
-										
-										<h3 class="progress-title">Capacitor, Android Studio </h3>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-				<!-- More -->
-				<div class="col-lg-3 col-md-6 cpmtEl">
-					<i class="fa fa-5x fa-plug" data-toggle="modal" data-target="#GPModal"></i>
-					<h5 class="cmptElTitle">Autres Outils</h5>
-					<div class="modal fade" id="GPModal">
-						<div class="modal-dialog modal-dialog-centered">
-							<div class="modal-content">
-								<div class="modal-body">
-									<button type="button" class="close" data-dismiss="modal">&times;</button>
-									<div class="container-fluid">
-										<h3 class="caption" style="font-size:20px;">Autres Outils</h3>
-										<h3 class="progress-title">Docker, Vite, Linux, UML, PM2, Eslint,
-WebSockets </h3>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-				</div>
+                          <h3 class="progress-title">UI Libraries: Material-UI, Bootstrap, Element UI, Vuetify</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Back End -->
+          <div class="col-lg-3 col-md-6 cpmtEl">
+            <i class="fa fa-5x fa-server" data-toggle="modal" data-target="#DMModal"></i>
+            <h5 class="cmptElTitle">Back End</h5>
+            <div class="modal fade" id="DMModal">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                          <h3 class="caption" style="font-size: 20px">Back End</h3>
+                          <h3 class="progress-title">Node.js, ASP.NET Core, J2EE</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- GESTION VERISONS AND PROJECTS -->
+          <div class="col-lg-3 col-md-6 cpmtEl">
+            <i class="fas fa-code-branch fa-5x" data-toggle="modal" data-target="#MAMModal"></i>
+            <h5 class="cmptElTitle">Gestion des versions et de projet</h5>
+            <div class="modal fade" id="MAMModal">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="container-fluid">
+                      <h3 class="caption" style="font-size: 20px">Gestion des versions et de projet</h3>
+                      <h3 class="progress-title">Git (GITflow), Notion, Trello, Slack, Microsoft Teams, JIRA, Zeplin, Scrum methodology</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Test & Automatisation -->
+          <div class="col-lg-3 col-md-6 cpmtEl">
+            <i class="fa fa-5x fa-cogs" data-toggle="modal" data-target="#LPOOModal"></i>
+            <h5 class="cmptElTitle">Test & Automatisation</h5>
+            <div class="modal fade" id="LPOOModal">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-12 col-lg-12">
+                          <h3 class="caption" style="font-size: 20px">Test & Automatisation</h3>
+                          <h3 class="progress-title">Jest, Selenium, Cypress, Postman (for API testing)</h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--DataBases -->
+          <div class="col-lg-3 col-md-6 cpmtEl">
+            <i class="fa fa-5x fa-database" data-toggle="modal" data-target="#BDModal"></i>
+            <h5 class="cmptElTitle">Base de données</h5>
+            <div class="modal fade" id="BDModal">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="container-fluid">
+                      <div class="row">
+                        <h3 class="caption" style="font-size: 20px">Langages et frameworks d'interrogation de base de données</h3>
+                        <h3 class="progress-title">MongoDB, Redis, PL/SQL, SQL, MySQL, Hibernate</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- DeskTop Applications -->
+          <div class="col-lg-3 col-md-6 cpmtEl">
+            <i class="fas fa-desktop fa-5x" data-toggle="modal" data-target="#desktop_modal"></i>
+            <h5 class="cmptElTitle">Applications de bureau</h5>
+            <div class="modal fade" id="desktop_modal">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="container-fluid">
+                      <h3 class="caption" style="font-size: 20px">Applications de bureau</h3>
+                      <h3 class="progress-title">Electron, WinForms (.NET, C#), Java Swing</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Meth Analy et Model Modal -->
+          <div class="col-lg-3 col-md-6 cpmtEl">
+            <i class="fas fa-chart-pie fa-5x" data-toggle="modal" data-target="#MAMModel2"></i>
+            <h5 class="cmptElTitle">Mobille Applications</h5>
+            <div class="modal fade" id="MAMModel2">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="container-fluid">
+                      <h3 class="progress-title">Capacitor, Android Studio</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- More -->
+          <div class="col-lg-3 col-md-6 cpmtEl">
+            <i class="fa fa-5x fa-plug" data-toggle="modal" data-target="#GPModal"></i>
+            <h5 class="cmptElTitle">Autres Outils</h5>
+            <div class="modal fade" id="GPModal">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="container-fluid">
+                      <h3 class="caption" style="font-size: 20px">Autres Outils</h3>
+                      <h3 class="progress-title">Docker, Vite, Linux, UML, PM2, Eslint, WebSockets</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-			</div>
-		</div>
-	</section>
+    <section id="contact" class="content-section wow fadeInUp">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 en-tete">
+            <h2>Contact</h2>
+            <i class="col-md-12 icon fa fa-paper-plane fa-3x"></i>
+            <h3 class="caption">N'hésitez pas à entrer en contact avec moi si vous avez une quelconque demande</h3>
+          </div>
+        </div>
+      </div>
 
-	
-	
+      <div class="container">
+        <div class="row form-container">
+          <div class="col-md-8 contact-form">
+            <h3>Déposez un message</h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="Votre Nom..." value="" required />
+              </div>
+              <div class="form-group">
+                <input type="phone" class="form-control" id="phone" placeholder="Votre Téléphone..." value="" required />
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="4" id="message" placeholder="Votre Message..." required></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" name="submit" class="btn btn-default btncontact" onclick="sendMail()">
+                  <span class="fa fa-paper-plane fa-fw"></span> Envoyer
+                </button>
+              </div>
+            </form>
+          </div>
 
-	<section id="contact" class="content-section wow fadeInUp">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 en-tete">
-					<h2>Contact</h2>
-					<i class="col-md-12 icon fa fa-paper-plane fa-3x"></i>
-					<h3 class="caption">N'hésitez pas à entrer en contact avec moi si vous avez une quelconque demande
-					</h3>
-				</div>
-			</div>
-		</div>
+          <div class="col-md-4 contact-address">
+            <h3 id="adress">Adresse</h3>
+            <i class="col-md-1 fas fa-map-marker-alt fa-3x"></i>
+            <p class="col-md-3">
+              Rades, Ben Arous, TUNISIE<br />
+              Email: <a href="mailto:jawher_hamza@yahoo.fr">jawher_hamza@yahoo.fr</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-		<div class="container">
-			<div class="row form-container">
-				<div class="col-md-8 contact-form">
-					<h3>Déposez un message</h3>
-					<form id="contactForm">
-						<div class="form-group">
-							<input type="text" class="form-control" id="name" placeholder="Votre Nom..." value=""
-								required>
-						</div>
-						<div class="form-group">
-							<input type="phone" class="form-control" id="phone" placeholder="Votre Téléphone..."
-								value="" required>
-						</div>
-						<div class="form-group">
-							<textarea class="form-control" rows="4" id="message" placeholder="Votre Message..."
-								required></textarea>
-						</div>
-						<div class="form-group">
-							<button type="submit" name="submit" class="btn btn-default btncontact"
-								onclick="sendMail()"><span class="fa fa-paper-plane fa-fw"></span>
-								Envoyer</button>
-						</div>
-					</form>
-				</div>
+    <footer>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <a href="#home-section"><i id="dash" class="fa fa-code"></i> Jawher Hamza <i id="dash2" class="fa fa-code"></i></a>
+          </div>
+          <div class="col-md-12 social">
+            <a href="https://www.linkedin.com/in/jawher-hamza/"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="copynote">
+        <div class="row">
+          <div class="col-md-12 text-center">Créé en 08 / 2018 | Dernière mise à jour: 10 / 2024 <span class="hiddenMSGS">#BBFL</span></div>
+        </div>
+      </div>
+      <a href="https://www.linkedin.com/in/jawher-hamza/" class="fixedLinked"><i class="fab fa-linkedin" style="color: #0077b5"></i></a>
+    </footer>
 
-				<div class="col-md-4 contact-address">
-					<h3 id="adress">Adresse</h3>
-					<i class="col-md-1 fas fa-map-marker-alt fa-3x"></i>
-					<p class="col-md-3">
-						Rades, Ben Arous, TUNISIE<br />
-						Email: <a href="mailto:jawher_hamza@yahoo.fr">jawher_hamza@yahoo.fr</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<footer>
-		<div class="container">
-			<div class="row text-center">
-				<div class="col-md-12"> <a href="#home-section"><i id="dash" class="fa fa-code"></i> Jawher Hamza <i
-							id="dash2" class="fa fa-code"></i></a> </div>
-				<div class="col-md-12 social">
-					<a href="https://www.linkedin.com/in/jawher-hamza/"><i class="fab fa-linkedin"></i></a>
-				</div>
-			</div>
-		</div>
-		<div class="copynote">
-			<div class="row">
-				<div class="col-md-12 text-center">Créé en 08 / 2018 | Dernière mise à jour: 10 / 2024 <span
-						class="hiddenMSGS">#BBFL</span></div>
-			</div>
-		</div>
-		<a href="https://www.linkedin.com/in/jawher-hamza/" class="fixedLinked"><i class="fab fa-linkedin"
-				style="color:#0077B5"></i></a>
-	</footer>
-
-	<!-- jQuery & Bootstrap -->
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
-		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-	</script>
-	<!-- Plugin -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/typeit@5.10.7/dist/typeit.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js"></script>
-	<!-- Custom JavaScript -->
-	<script src="assets/js/index.js"></script>
-</body>    
-
+    <!-- jQuery & Bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.7/dist/typeit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/wowjs@1.1.3/dist/wow.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>
