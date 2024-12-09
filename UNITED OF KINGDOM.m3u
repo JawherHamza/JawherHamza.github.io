@@ -1,8 +1,55 @@
 #EXTM3U
-#EXTINF:-1="612171" tvg-name="||UK|| LFC TV HD (l:goldiptvofficiel)" tvg-id="LFCTV.uk" group-title="UNITED OF KINGDOM",||UK|| LFC TV HD (l:goldiptvofficiel)
-https://m3uproxy.media4u.top/p/m3u-stream/live/internal/internal/KLUv_QQAuQMAeyJ0aXRsZSI6Inx8VUt8fCBMRkMgVFYgSEQgKGw6Z29sZGlwdHZvZmZpY2llbCkiLCJ0dmdfaWQiOiJMRkNUVi51ayIsInR2Z19jaCI6IiIsImxvZ28iOiIiLCJncm91cCI6IlVOSVRFRCBPRiBLSU5HRE9NIn2Ppcjs
-#EXTINF:-1="612172" tvg-name="||UK|| LIVERPOOL HD (l:goldiptvofficiel)" tvg-id="LFCTV.uk" tvg-logo="http://obsfullhd.tv:25461/images/d1b0901b0201c1fc7c75dc5e82bff5bd.png" group-title="UNITED OF KINGDOM",||UK|| LIVERPOOL HD (l:goldiptvofficiel)
-#EXTINF:0 CUID="426280" tvg-name="Liverpool TV (LFC TV) (f:dtankdempse)" tvg-id="LFCTV.HD.uk" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/lfctv-uk.png" group-title="SPORTS (DADDY LIVE)",Liverpool TV (LFC TV) (f:dtankdempse)
-https://m3uproxy.media4u.top/p/p/lb/premium826/KLUv_QQAyQYAeyJ0aXRsZSI6IkxpdmVycG9vbCBUViAoTEZDIFRWKSAoZjpkdGFua2RlbXBzZSkiLCJ0dmdfaWQiOiJMRkNUVi5IRC51ayIsInR2Z19jaCI6IiIsImxvZ28iOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vdHYtbG9nby90di1sb2dvcy9tYWluL2NvdW50cmllcy91bml0ZWQta2luZ2RvbS9sZmN0di11ay5wbmciLCJncm91cCI6IlNQT1JUUyAoREFERFkgTElWRSkifRMxl7I.m3u8
-#EXTINF:0 CUID="427621" tvg-name="MASN (f:dtankdempse)" tvg-id="MASN.us" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/masn-us.png" group-title="SPORTS (DADDY LIVE)",MASN (f:dtankdempse)
-https://m3uproxy.media4u.top/p/p/lb/premium829/KLUv_QQA9QQAwgokIUALrACz9JO0gJJR0zLC5V3TkWSZUJ1pZJlSyXan2mwbHBFPACQECBgKiqJQDmNBOCgwWK7uxH3ckTt1EMdEecHE2as5adlPY-J8T2tclvQtmHjdNsmiE1yGWrN12ZMcGSLTz6GH9aSk2Olmrr5umyO_OsM4ovYW3KKPPJHswGwOurqphsMgWBQDV8-mXx8iAwC4QqDNPD4y9QTiTfjR.m3u8
+#EXTINF:0 CUID="96776" tvg-name="UK | BBC ONE NORTHERN IRELAND (l:web24)" tvg-logo="http://195.154.221.171/picons/bbconenorthernirelanduk.group-title=" group-title=" tvg-name=",UK | BBC ONE NORTHERN IRELAND (l:web24)
+https://m3uproxy.media4u.top/p/m3u-stream/live/internal/internal/KLUv_QQAxQQAUkkhHzCtDMsyEVcojSUkDRc76C9708UwHFgp4sX3elBQKBgVpy8XHz10SvrSFy8IsCxryz2yCjtu1Rbrem2dccWZmqYHwZmy2IMD6CDDuMaBziHA9yK29-XRs5XvRXn0yjasyPbFAw0zVUm8gHb4RyFn1H5KBJ3SN_lSM0BQo7QEw6PXu-32SQUAGTNA5miAvGZecOtnZQ8dvz_R
+#EXTINF:0 CUID="528" tvg-name="* Fluxus.TV Español (f:FTV)" tvg-id="FluxusFireplace?" tvg-logo="https://i.imgur.com/3zzqEti.png" group-title="* Fluxus.TV Español",* Fluxus.TV Español (f:FTV)
+https://m3uproxy.media4u.top/p/p/m3u-stream/live/internal/internal/KLUv_QQAxQMAQocaIaCnAY9fVZfmdhL5Ky2pF_r3W-RW3KHLj74IRLBnt6oFAY3HCeU-fRFRcSOJ5xmsBjYl5zaseC11YjdzPVz4nn490wiuLS86yex6AxdW0U8PKAnTAwA96Hgs0UGQkihnLuZjSHC9e819RgMAtocKfzokCVNQDr8LAg
+#EXTINF:0 CUID="6715" tvg-name="4 Adventure (f:apsattv)" tvg-id="playlist.m3u8?ads" group-title="4 Adventure",4 Adventure (f:apsattv)
+https://m3uproxy.media4u.top/p/p/m3u-stream/live/internal/internal/KLUv_QQAxQIAEoUSGXBRFSeWkiUSpWgJItn_vxcZ-fDacVTVUwKBP-kgc8zx069nlKj2MCTRDB0bP8vvetUSNvvpwuze-FaXAC0o21lTIai4fnG3PiADAFiQugUnB5mCAnQCU3Y
+#EXTINF:0 CUID="6716" tvg-name="4 Emergency (f:apsattv)" tvg-id="playlist.m3u8?ads" group-title="4 Emergency",4 Emergency (f:apsattv)
+https://m3uproxy.media4u.top/p/p/m3u-stream/live/internal/internal/KLUv_QQAzQIAEsUSGXAJFTAgTFlZU4K4Wvr__adgDRCCAbz_H3qLs7farl388ucRxh0lDF5AAdoljsrs-ZMMC_vlB-xWxzQPBokmgbYhVSCC5xF36isCAwBYkLoFJweZggKIJfdC
+#EXTINF:0 CUID="6877" tvg-name="5 Minute Crafts Spanish (AR) (f:apsattv)" tvg-id="playlist" group-title="5 Minute",5 Minute Crafts Spanish (AR) (f:apsattv)
+https://m3uproxy.media4u.top/p/p/playlist/amg02051-admecyltd-5minutecraftsspanish-lgar/KLUv_QQA7QIAksUTGXCJDCBu7aRzgaX-MorAfwFAyTmlce__fzMLq5MalFBKI7Z5OXwxE5dqMwIN6LkRH89_q2eKUQchYNSyyJwWaq9cI6jkDoODAtic5PFWBAMAYDC6ZaRx2TQDmGVG2w.m3u8
+#EXTINF:0 CUID="6878" tvg-name="5 Minute Crafts Spanish (AR) Alt (f:apsattv)" tvg-id="playlist" group-title="5 Minute",5 Minute Crafts Spanish (AR) Alt (f:apsattv)
+https://m3uproxy.media4u.top/p/p/playlist/amg02051-admecyltd-5minutecraftsspanish-lgar/KLUv_QQABQMA0oUUGoBHDdhIyKeT5iS7RjEZXJ4DUhNR__02IQUCCa-jmqSSUhv2eSl8pR5Q12dDEtJzGy6eH9fiKciuiBUCBNmyksEd2LqCDcCSO0wG7PA50eeNCAMAZDC6ZaRy2TQDAhFXMA.m3u8
+#EXTINF:0 CUID="6879" tvg-name="5 Minute Crafts Spanish (CL) (f:apsattv)" tvg-id="playlist" group-title="5 Minute",5 Minute Crafts Spanish (CL) (f:apsattv)
+https://m3uproxy.media4u.top/p/p/playlist/amg02051-admecyltd-5minutecraftsspanish-lgcl/KLUv_QQA7QIAksUTGYBHBshHyAnnUsn-Esz3F7lWGc37wZEBzgMJq5MalFBKH7Z5KXwxD5dqswEJ6LkPG89_q2dKUUYAKWpZZE4HtVeuQSq5w6CgADYnebwRAQMAYDC6ZaRx2TQDW0Dvag.m3u8
+#EXTINF:0 CUID="6880" tvg-name="5 Minute Crafts Spanish (CL) Alt (f:apsattv)" tvg-id="playlist" group-title="5 Minute",5 Minute Crafts Spanish (CL) Alt (f:apsattv)
+https://m3uproxy.media4u.top/p/p/playlist/amg02051-admecyltd-5minutecraftsspanish-lgcl/KLUv_QQABQMA0oUUGoBHDdhIyKeT5iS7RjEZ7JTr3LCh132cAQACCa-jmqSSUhv2eSl8pR5Q12dDEtJzGy6eH9fiKciuACsCCLJlJYM7sHUFG8SSO0wK7PA50eeNCAMAZDC6ZaRy2TQDm0TY8Q.m3u8
+#EXTINF:0 CUID="6881" tvg-name="5 Minute Crafts Spanish (CO) (f:apsattv)" tvg-id="playlist" group-title="5 Minute",5 Minute Crafts Spanish (CO) (f:apsattv)
+https://m3uproxy.media4u.top/p/p/playlist/amg02051-admecyltd-5minutecraftsspanish-lgco/KLUv_QQA7QIAksUTGYBHBshHyAnnUsn-Esz3z9Cb-Op_5cgA5wEJq5MalFBKH7Z5KXwxD5dqswEJ6LkPG89_q2dKUYYAKWpZZE4HtVeuQSq5w2CgADYnebwRAQMAYDC6ZaRx2TQD-Kt1vA.m3u8
+#EXTINF:0 CUID="6882" tvg-name="5 Minute Crafts Spanish (CO) Alt (f:apsattv)" tvg-id="playlist" group-title="5 Minute",5 Minute Crafts Spanish (CO) Alt (f:apsattv)
+https://m3uproxy.media4u.top/p/p/playlist/amg02051-admecyltd-5minutecraftsspanish-lgco/KLUv_QQABQMA0oUUGoBHDdhIyKeT5iS7RjEZHIjWafDCovs4AwAECa-jmqSSUhv2eSl8pR5Q12dDEtJzGy6eH9fiKciuACsECLJlJYM7sHUFG8SSO0wG7PA50eeNCAMAZDC6ZaRy2TQD7vMhEQ.m3u8
+#EXTINF:0 CUID="6883" tvg-name="5 Minute Crafts Spanish (MX)  (f:apsattv)" tvg-id="playlist" group-title="5 Minute",5 Minute Crafts Spanish (MX)  (f:apsattv)
+https://m3uproxy.media4u.top/p/p/playlist/amg02051-admecyltd-5minutecraftsspanish-lgmx/KLUv_QQA7QIAosUTGYBHBshHyAnnUsn-EszDf9cWhNX_ypEBzgMJq5MalFBKH7Z5KXwxD5dqswEJ6LkPG89_q2dKUWUMkKKWReZUUHvlmkAldxhECmBzkscbEQMAYTC6ZeRx2TQD3Fe1yg.m3u8
+#EXTINF:0 CUID="6884" tvg-name="5 Minute Crafts Spanish (MX) Alt (f:apsattv)" tvg-id="playlist" group-title="5 Minute",5 Minute Crafts Spanish (MX) Alt (f:apsattv)
+https://m3uproxy.media4u.top/p/p/playlist/amg02051-admecyltd-5minutecraftsspanish-lgmx/KLUv_QQABQMA0oUUGoBHDdhIyKeT5iS7RjHpQUcIib2h132cAQACCa-jmqSSUhv2eSl8pR5Q12dDEtJzGy6eH9fiKciuACsGCLJlJYMrsHUFm4Ald5hE7PA50eeNCAMAZDC6ZaRy2TQDPAgzSQ.m3u8
+#EXTINF:0 CUID="6885" tvg-name="5 Minute Crafts Spanish (PE) (f:apsattv)" tvg-id="playlist" group-title="5 Minute",5 Minute Crafts Spanish (PE) (f:apsattv)
+https://m3uproxy.media4u.top/p/p/playlist/amg02051-admecyltd-5minutecraftsspanish-lgpe/KLUv_QQA7QIAksUTGXCJDCBu7aRzgaX-MopA_JGQ4zmlce__fzMLq5MalFBKI7Z5OXwxE5dqMwIN6LkRH89_q2eKUYeAYNSyyJwWaq9cE6jkDoODAtic5PFWBAMAYDC6ZaRx2TQDeeCBtg.m3u8
+#EXTINF:0 CUID="6886" tvg-name="5 Minute Crafts Spanish (PE) Alt (f:apsattv)" tvg-id="playlist" group-title="5 Minute",5 Minute Crafts Spanish (PE) Alt (f:apsattv)
+https://m3uproxy.media4u.top/p/p/playlist/amg02051-admecyltd-5minutecraftsspanish-lgpe/KLUv_QQABQMA0oUUGnCJGiBq9pNK05NdYxSB-CMBPIjOZv37_98MC6-jmqSSUh_2eTl8pSZQ12dEGtJzHzaeH9fiKciuADMEBGTLSga3YOsKNgFL7jA5MMTnRJ-3IgMAZDC6ZaRy2TQDey7pcQ.m3u8
+#EXTINF:0 CUID="7014" tvg-name="6 ABC Philadelphia (f:apsattv)" tvg-id="abcnews.go" group-title="6 ABC",6 ABC Philadelphia (f:apsattv)
+https://m3uproxy.media4u.top/p/p/m3u-stream/live/internal/internal/KLUv_QQAMQMAeyJ0aXRsZSI6IjYgQUJDIFBoaWxhZGVscGhpYSAoZjphcHNhdHR2KSIsInR2Z19pZCI6ImFiY25ld3MuZ28iLCJ0dmdfY2giOiIiLCJsb2dvIjoiIiwiZ3JvdXAiOiI2IEFCQyJ9GHzsVw
+#EXTINF:0 CUID="7293" tvg-name="9 WFTV (Geo) (f:apsattv)" tvg-id="playlist.m3u8?ads" group-title="9 WFTV",9 WFTV (Geo) (f:apsattv)
+https://m3uproxy.media4u.top/p/p/m3u-stream/live/internal/internal/KLUv_QQA_QIAJAV7InRpdGxlIjoiOSBXRlRWIChHZW8pIChmOmFwc2F0dHYpIiwidHZnX2lkIjoicGxheWxpc3QubTN1OD9hZHNjaCI6IiIsImxvZ29ncm91cCJ9AwBZKLplpAeZggLsjNtZ
+#EXTINF:0 CUID="7504" tvg-name="9XM (Asia) (f:apsattv)" tvg-id="playlist" group-title="9XM",9XM (Asia) (f:apsattv)
+https://m3uproxy.media4u.top/p/p/linear/amg01412-xiaomiasia-9xm-xiaomi/KLUv_QQA0QIAeyJ0aXRsZSI6IjlYTSAoQXNpYSkgKGY6YXBzYXR0dikiLCJ0dmdfaWQiOiJwbGF5bGlzdCIsInR2Z19jaCI6IiIsImxvZ28iOiIiLCJncm91cCI6IjlYTSJ9DuD9Yg.m3u8
+#EXTINF:0 CUID="7505" tvg-name="9XM (f:apsattv)" tvg-id="playlist" group-title="9XM",9XM (f:apsattv)
+https://m3uproxy.media4u.top/p/p/m3u-stream/live/internal/internal/KLUv_QQAmQIAeyJ0aXRsZSI6IjlYTSAoZjphcHNhdHR2KSIsInR2Z19pZCI6InBsYXlsaXN0IiwidHZnX2NoIjoiIiwibG9nbyI6IiIsImdyb3VwIjoiOVhNIn2NLFM5
+#EXTINF:0 CUID="2082" tvg-name="13 News KOLD Tucson (Geo) (f:apsattv)" tvg-id="playlist" group-title="13 News",13 News KOLD Tucson (Geo) (f:apsattv)
+https://m3uproxy.media4u.top/p/p/playlist/amg00312-graytelevisionfast-koldkoldnews13-vizious/KLUv_QQA7QIAYsUTGmALHBhZU6IJr1S1uOs8NekXHT04GXLefc8LkTe3jbVr9efPL1Iz0wfS9nyCIdbrn5vXjbihVBQ0qwQFGcvJHTBAMAyQHaqAgOR5pc36kAMAXdi6ZeRw2TQD4_l_Dg.m3u8
+#EXTINF:0 CUID="2453" tvg-name="24 Hour Movies (f:apsattv)" tvg-id="playlist" group-title="24 Hour",24 Hour Movies (f:apsattv)
+https://m3uproxy.media4u.top/p/p/hls/amagi_hls_data_klowdtvAA-muxip-24hoursmovies/CDN/KLUv_QQAjQIAssQQF5C5AZCzJAsZX4KMnTJpUVt9AoWXmS4EzZdjpljx_vx55eimu6BdzyNqqNc_D143agtlAmBL-rhA5pjAQXg-bWufCQMAUti6ZSS8bEIBFBhw_Q.m3u8
+#EXTINF:0 CUID="2511" tvg-name="24/7 All in the Family (p:offthewall)" tvg-logo="https://Offthewall.store:443/images/37375d770c4c8381c4b5b321599e7fe2.jpg" group-title="24/7",24/7 All in the Family (p:offthewall)
+https://m3uproxy.media4u.top/p/m3u-stream/live/internal/internal/KLUv_QQAZQQAQskfH0BBLABvCz2PhrodydKoLp0wjgxpnEhiBcQ2-tBkhCIB5-XY36_CSvLH5UUgLEIcGUZJWHMUx8FkaQt0cMD8KNy4rSnKJqKrOfeiZHtCDGu96XbPv1tp64R_f-hBLvrHBbU2jDgbguy7AdWoNGoKKs5WCapqJShejv091qZ9gAMAsCrrZeB9VqA1-YY4
+#EXTINF:0 CUID="2641" tvg-name="24/7 Chicago P.D." (p:offthewall)" group-title="24/7",24/7 Chicago P.D." (p:offthewall)
+https://m3uproxy.media4u.top/p/m3u-stream/live/internal/internal/KLUv_QQAvQIAxAR7InRpdGxlIjoiMjQvNyBDaGljYWdvIFAuRC5cIiAocDpvZmZ0aGV3YWxsKSIsInR2Z19pZCI6ImNobG9nb2dyb3VwIjoiMjQvNyJ9AxADHeQD4zMofGpLWA
+#EXTINF:0 CUID="2701" tvg-name="24/7 Denzel Washington (p:offthewall)" tvg-logo="https://Offthewall.store:443/images/8188a91dfbb452510e33c3a7c79a39ef.jpg" group-title="24/7",24/7 Denzel Washington (p:offthewall)
+https://m3uproxy.media4u.top/p/m3u-stream/live/internal/internal/KLUv_QQAbQQAQgkgH0BBLAB4vhgHJSZfmOiFELgUgARlp6YUGopkNC9UW1gBb4otd7eKOsUjjxaRQHbWcxrU3oLW4oHCLAx7HhgpzmsapVGX40tMtRhzPNW-SUEpd223vHuNlUro7tE8xEUfuYDSx2DZEFZnA4dUO0pT3mc4KDckJhxNseXuTHv2AQIDALAq62XgfVag_KgzRQ
+#EXTINF:0 CUID="2830" tvg-name="24/7 Good Times (p:offthewall)" tvg-logo="https://Offthewall.store:443/images/7bf9f31b8ebd504cab2ddda64ce9ab2d.jpg" group-title="24/7",24/7 Good Times (p:offthewall)
+https://m3uproxy.media4u.top/p/m3u-stream/live/internal/internal/KLUv_QQAPQQA0ogeH0BRLABtQWyGaKnhlu6sN2UfOqVN1KWD5i6cNsloygoBZ9JS38-GjN6Tv8lQWDXWtLMMjJlVY84aFLj1oREW17jGJNqPQTAta21HslIlkdLSWevzvXwyPs73DBfPUZ9cECN79FOdkzsDCG0IKhCWEoEwaanvO1ZYDxADALAq62Vgelag8rfDFA
+#EXTINF:0 CUID="2977" tvg-name="24/7 Mama's Family (p:offthewall)" tvg-logo="https://Offthewall.store:443/images/0b4a3a6e7f8c45f46d723dd6c45c7d12.jpg" group-title="24/7",24/7 Mama's Family (p:offthewall)
+https://m3uproxy.media4u.top/p/m3u-stream/live/internal/internal/KLUv_QQARQQAAskeHVBrBbtvo-ICN2mSRPxFwVl2adp-B222OHkjABBUka_E6v3KoFG88lgXiyK41RpujnOMWs5h2HArwPUcxjBWDJJ9kUEyMcz9Inrtgkipbb33eZ9GOp_2vpOJ2LhXLpiTOd5zIaRdA8ljSogZEgtgEDskK7F6_80r7yEBAwCwKutl4HtWoMcgiF0
+#EXTINF:0 CUID="2982" tvg-name="24/7 Martin (p:offthewall)" tvg-logo="https://Offthewall.store:443/images/0d4defeb86c39d1cbdbfbdf6cf60777e.jpg" group-title="24/7",24/7 Martin (p:offthewall)
+https://m3uproxy.media4u.top/p/m3u-stream/live/internal/internal/KLUv_QQAFQQAkkgdHVCLBf-MeKISAoil_Kb30RqA5lP5lmhTaHEgAKBoj7OkmO_rgkLxyWNFKMwYWxZ0C74G22tO8AiNW4PGkJ96S4o4OgmZGqWWIdqRYkhpo9r9fE8jnY_7_slDZPSTB-Z0Gvw0hHQrAFHIhpwCwpJivufZsu8IAwCwKutlYHhWoM436G8
+#EXTINF:0 CUID="3017" tvg-name="24/7 Mom (p:offthewall)" group-title="24/7",24/7 Mom (p:offthewall)
+https://m3uproxy.media4u.top/p/m3u-stream/live/internal/internal/KLUv_QQAZQIAFAR7InRpdGxlIjoiMjQvNyBNb20gKHA6b2ZmdGhld2FsbCkiLCJ0dmdfaWQiOiJjaGxvZ29ncm91cCI6IjI0LzcifQMQAx3kA_dZGShoUAI
