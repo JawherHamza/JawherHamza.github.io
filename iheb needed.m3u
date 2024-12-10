@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 tvg-ID="" tvg-name="UHD ▎SKY SPORTS MAIN EVENT [UK]" tvg-logo="https://img.logo-cdn.cc/skysportsmaineventuhd.png" group-title="UHD CHANNELS",UHD ▎SKY SPORTS MAIN EVENT [UK]
+http://line.nspivot.com:80/A4688C/702D24/1444578
+#EXTINF:-1 tvg-ID="" tvg-name="UHD ▎SKY SPORTS F1 [UK]" tvg-logo="https://img.logo-cdn.cc/skysportsf1uhd.png" group-title="UHD CHANNELS",UHD ▎SKY SPORTS F1 [UK]
+http://line.nspivot.com:80/A4688C/702D24/1444579
+#EXTINF:-1 tvg-ID="" tvg-name="UHD ▎SKY SPORTS 1 [UK]" tvg-logo="https://img.logo-cdn.cc/skysportuhd.png" group-title="UHD CHANNELS",UHD ▎SKY SPORTS 1 [UK]
+http://line.nspivot.com:80/A4688C/702D24/1444580
+#EXTINF:-1 tvg-ID="" tvg-name="UHD ▎SKY SPORTS 2 [UK]" tvg-logo="https://img.logo-cdn.cc/skysportuhd.png" group-title="UHD CHANNELS",UHD ▎SKY SPORTS 2 [UK]
+http://line.nspivot.com:80/A4688C/702D24/1444581
